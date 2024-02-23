@@ -25,6 +25,10 @@ TESTS = {
     {
         "input": [["URUBU", "POLIVALENTE"]],
         "answer": [-1, -1]
+    },
+    {
+        "input": [["ATRITO", "TRUTA"]],
+        "answer": [5,4]
     }
     ]
 }
