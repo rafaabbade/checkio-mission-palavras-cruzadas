@@ -1,1 +1,15 @@
-{{CODIGO INICIAL}}
+def palavras_cruzadas(palavras):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(palavras_cruzadas(["PATO", "PELE"]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+
+assert palavras_cruzadas(["PATO", "PELE"]) == [1, 1]
+assert palavras_cruzadas(["ANJO", "MENTORA"]) == [4, 5]
+assert palavras_cruzadas(["MENTORA", "ANJO"]) == [7, 1]
+assert palavras_cruzadas(["URUBU", "POLIVALENTE"]) == [-1, -1]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

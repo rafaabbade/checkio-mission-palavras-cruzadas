@@ -1,18 +1,18 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Em um jogo de palavras cruzadas, o jogador preenche um retângulo com quadrados em branco e pretos, onde cada linha e coluna em branco deve ser preenchida com uma palavra. As palavras horizontais cruzam com as palavras verticais em letras comuns. Dadas uma palavra horizontal e uma palavra vertical, sua tarefa é encontrar a melhor letra de cruzamento entre elas, definida como a letra que permite o cruzamento mais à direita na palavra horizontal e, em caso de empate, o cruzamento mais abaixo na palavra vertical.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Duas strings em uma lista: a primeira string é a palavra horizontal, e a segunda string é a palavra vertical.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma lista de dois inteiros descrevendo a melhor letra de cruzamento: o índice na palavra horizontal e o índice na palavra vertical. Se não houver cruzamento possível, ambos os inteiros devem ser -1.
 </p>
 
 
@@ -28,7 +28,11 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    palavras_cruzadas(["PATO", "PELE"]) >> [1, 1]
+palavras_cruzadas(["ANJO", "MENTORA"]) >> [4, 5]
+palavras_cruzadas(["MENTORA", "ANJO"]) >> [7, 1]
+palavras_cruzadas(["URUBU", "POLIVALENTE"]) >> [-1, -1]
+
 </pre>
 {% endif %}
 </div>
