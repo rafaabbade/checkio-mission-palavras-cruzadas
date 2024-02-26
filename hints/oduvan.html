@@ -38,4 +38,27 @@
    </p>
   </div>
  </div>
+  <div class="question-answer">
+  <div class="question">
+   <p>
+    Como posso descobrir o índice independente do número de vezes que a letra aparece na palavra?
+   </p>
+  </div>
+  <div class="answer">
+   <p>
+    Para isso você deve usar uma variação do 'for' que usa o 'enumerate'. Seu funcionamento é igual, porém adicionamos outros parâmetros. Veja no exemplo abaixo:
+   </p>
+            <pre class="brush: python">
+             
+   for indice1, letra1 in enumerate(palavra, start=1):
+       # indice1 vai retornar a posição da letra1 no momento da execução do 'for'
+       # letra1 é a variável de iteração do 'for', funciona da maneira que já conhecemos
+       # palavra é a palavra na qual vamos fazer as iterações, também funciona da maneira que já conhecemos
+       # start é o número que começamos a contagem. Por padrão, start vale 0
+       print(indice1, letra1) # use o print caso queira ver o funcionamento
+ 
+           
+        </pre>
+  </div>
+ </div>
  </body>
