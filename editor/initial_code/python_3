@@ -11,5 +11,6 @@ assert palavras_cruzadas(["PATO", "PELE"]) == [1, 1]
 assert palavras_cruzadas(["ANJO", "MENTORA"]) == [4, 5]
 assert palavras_cruzadas(["MENTORA", "ANJO"]) == [7, 1]
 assert palavras_cruzadas(["URUBU", "POLIVALENTE"]) == [-1, -1]
+assert palavras_cruzadas(["ATRITO", "TRUTA"]) == [-1, -1]
 
 print("Seu código passou pelos testes, clique em Check para avançar!")
